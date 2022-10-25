@@ -14,12 +14,12 @@ function TeamCards() {
         <Card.Img className="py-3" variant="top" src="images/tofu.png" style={{ width: "300px"}} />
         <Card.Body>
           <Card.Title>ExtraFirmTofu</Card.Title>
-          <Card.Text>hello</Card.Text>
+          <Card.Text>Founder</Card.Text>
         </Card.Body>
         
           <Card.Link
             style={{ color: "black" }}
-            href={""}
+            href={"https://twitter.com/DaoOfLaziness"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
@@ -31,12 +31,12 @@ function TeamCards() {
         <Card.Img className="py-3" variant="top" src="images/dappboy.png" style={{ width: "300px"}} />
         <Card.Body>
           <Card.Title>DappBoy</Card.Title>
-          <Card.Text>hello</Card.Text>
+          <Card.Text>Head Dev</Card.Text>
         </Card.Body>
         
           <Card.Link
             style={{ color: "black" }}
-            href={""}
+            href={"https://twitter.com/Dapp_Boy"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
@@ -48,12 +48,12 @@ function TeamCards() {
         <Card.Img className="py-3" variant="top" src="images/chosen1.png" style={{ width: "300px"}} />
         <Card.Body>
           <Card.Title>Chosen1</Card.Title>
-          <Card.Text>hello</Card.Text>
+          <Card.Text>Web Dev</Card.Text>
         </Card.Body>
         
           <Card.Link
             style={{ color: "black" }}
-            href={""}
+            href={"https://twitter.com/AdnanRondo"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
@@ -65,12 +65,12 @@ function TeamCards() {
         <Card.Img className="py-3" variant="top" src="images/hendrix.png" style={{ width: "300px"}} />
         <Card.Body>
           <Card.Title>Hendrix</Card.Title>
-          <Card.Text>hello</Card.Text>
+          <Card.Text>Blockchain Dev</Card.Text>
         </Card.Body>
         
           <Card.Link
             style={{ color: "black" }}
-            href={""}
+            href={"https://twitter.com/Olayinka12341"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
@@ -82,12 +82,12 @@ function TeamCards() {
         <Card.Img className="py-3" variant="top" src="images/john.png" style={{ width: "300px"}} />
         <Card.Body>
           <Card.Title>YungCitySlicker</Card.Title>
-          <Card.Text>hello</Card.Text>
+          <Card.Text>Web Dev</Card.Text>
         </Card.Body>
         
           <Card.Link
             style={{ color: "black" }}
-            href={""}
+            href={"https://twitter.com/EggosNFT"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />

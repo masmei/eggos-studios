@@ -42,9 +42,9 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/roadmap"
                 className="nav-links"
-                onClick={closeMobileMenu}
+                to={{ pathname: "https://twitter.com/EggosNFT" }}
+                target="_blank"
               >
                 Roadmap
               </Link>
