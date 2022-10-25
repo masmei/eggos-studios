@@ -64,15 +64,15 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/faq" className="nav-links" onClick={closeMobileMenu}>
-                FAQ
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Stake
               </Link>
             </li>
 
             <li className="nav-item">
             <Link
               className="nav-links"
-              to={{ pathname: "https://twitter.com" }}
+              to={{ pathname: "https://twitter.com/EggosNFT" }}
               target="_blank"
               aria-label="Twitter"
             >
@@ -83,7 +83,7 @@ function Navbar() {
             <li className="nav-item">
             <Link
               className="nav-links"
-              to={{ pathname: "https://discord.com" }}
+              to={{ pathname: "https://discord.gg/RnyuDxu66m" }}
               target="_blank"
               aria-label="Discord"
             >

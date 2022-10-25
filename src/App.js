@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Roadmap from './pages/Roadmap';
 import Services from './pages/Services';
 import Team from './pages/Team';
-import Faq from './pages/Faq';
+import Stake from './pages/Stake';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path='/roadmap' component={Roadmap} />
           <Route path='/services' component={Services} />
           <Route path='/team' component={Team} />
-          <Route path='/faq' component={Faq} />
+          <Route path='/stake' component={Stake} />
         </Switch>
       </Router>
     </>
