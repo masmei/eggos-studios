@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+      {/* <section className='footer-subscription'> */}
+        {/* <p className='footer-subscription-heading'>
           Call to action text...
         </p>
         <p className='footer-subscription-text'>
           More call to action text...
-        </p>
-        <div className='input-areas'>
+        </p> */}
+        {/* <div className='input-areas'> */}
           {/* <form>
             <input
               className='footer-input'
@@ -23,8 +23,8 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form> */}
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
       {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -100,7 +100,7 @@ function Footer() {
             </Link> */}
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: "https://twitter.com/EggosNFT" }}
               target='_blank'
               aria-label='Twitter'
             >
@@ -108,7 +108,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: "https://discord.gg/RnyuDxu66m" }}
               target='_blank'
               aria-label='Discord'
             >
