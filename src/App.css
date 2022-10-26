@@ -19,9 +19,10 @@
 }
 
 .services {
+  background-image: url("../public/images/floating-cogs.svg");
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 40%;
+  background-repeat: repeat;
   color: #fff;
   font-size: 100px;
 }
