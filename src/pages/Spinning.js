@@ -1,18 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import "../App.css"
 
-
-const Spinning = ({ alt, src, spinSpeed }) => (
-    <div className={`logo-container ${spinSpeed}`}>
-      <img className="logo" alt={alt} src={src} />
+const Spinning = () => {
+  return (
+    <div className='spin'>
+        <marquee><p>Best Services Coming Your Way Soon!</p></marquee>
     </div>
-  );
-  
- Spinning.propTypes = {
-    src: PropTypes.string.isRequired,
-    alt: PropTypes.string.isRequired,
-    spinSpeed: PropTypes.string.isRequired
-  };
+  )
+}
 
 export default Spinning;
-

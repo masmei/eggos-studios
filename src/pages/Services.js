@@ -1,16 +1,16 @@
-import React from 'react';
-import Spinning from './Spinning';
-import gear from "../components/assets/gear.svg"
-
+import React from "react";
+import Spinning from "./Spinning";
+import Svg from "../components/Svg";
 
 function Services() {
   return (
-    <div className="services">
-      <Spinning />
-      <h1>Coming Soon!</h1>
-
-    </div>
-  )
+    <>
+      <div className="services">
+        <Svg /> 
+        <Spinning/>
+      </div>
+    </>
+  );
 }
 
 export default Services;
