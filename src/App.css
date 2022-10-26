@@ -20,6 +20,7 @@
 
 .services {
   background-image: url("../public/images/floating-cogs.svg");
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
   background-position: center;
   height: 100vh;
   background-size: 20%;
@@ -28,14 +29,14 @@
   background-repeat: repeat;
   color: #fff;
   font-size: 50px;
-  margin-bottom: none;
+  /* margin-bottom: none; */
 }
 .services p {
   color:#ffcc5f; 
   /* color:#4ECDC4; * another color* */
 }
 .SVG {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   animation: logo-spin infinite 20s linear;
   /* height: 40vmin; */
   pointer-events: none;
