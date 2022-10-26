@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Spinning from "./Spinning";
+import Svg from "../components/Svg";
 
 function Services() {
   return (
-    <div className="py-5 container">
-      <h1>Coming Soon!</h1>
-    </div>
-  )
+    <>
+      <div className="services">
+        <Svg /> 
+        <Spinning/>
+      </div>
+    </>
+  );
 }
 
 export default Services;
