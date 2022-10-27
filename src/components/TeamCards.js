@@ -116,7 +116,7 @@ function TeamCards() {
 
           <Card.Link
             style={{ color: "black" }}
-            href={"https://twitter.com/Olayinka12341"}
+            href={"https://twitter.com/Hendrix12341"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
@@ -160,7 +160,7 @@ function TeamCards() {
 
           <Card.Link
             style={{ color: "black" }}
-            href={"https://twitter.com/EggosNFT"}
+            href={"https://twitter.com/yungcitysliker"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
