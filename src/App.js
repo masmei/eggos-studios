@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Stake from './pages/Stake';
+import Store from './pages/Store';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/team' component={Team} />
           <Route path='/stake' component={Stake} />
+          <Route path='/store' component={Store} />
         </Switch>
         <Footer/>
       </Router>
