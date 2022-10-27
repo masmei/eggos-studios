@@ -1,9 +1,7 @@
-import { Row, Button, Col, Card } from "react-bootstrap";
+import { Row,Col, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
-  faInstagram,
-  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 function TeamCards() {
