@@ -22,7 +22,7 @@ function TeamCards() {
 
           <Card.Link
             style={{ color: "black" }}
-            href={"https://twitter.com/DaoOfLaziness"}
+            href={"https://twitter.com/Extra_FirmTofu"}
             target="_blank"
           >
             <FontAwesomeIcon icon={faTwitter} />
