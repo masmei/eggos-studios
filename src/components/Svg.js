@@ -7,8 +7,8 @@ function Icon() {
         
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="110mm"
-      height="110mm"
+      width="100mm"
+      height="100mm"
       version="1.1"
       preserveAspectRatio="xMidYMin"
       viewBox="0 0 210 210"
@@ -17,7 +17,7 @@ function Icon() {
       <g transform="translate(0 -87)">
         <path
           fill="#ffcc5f"
-        //   fill="#4ECDC4" // Another color
+          // fill="#4ECDC4" // Another color
           fillOpacity="1"
           stroke="#000103"
           strokeDasharray="none"

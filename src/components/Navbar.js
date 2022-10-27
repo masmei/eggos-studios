@@ -43,10 +43,10 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-links"
-                to={{ pathname: "https://twitter.com/EggosNFT" }}
+                to={{ pathname: "https://eggos-studios.gitbook.io/whitepaper/" }}
                 target="_blank"
               >
-                Roadmap
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -64,7 +64,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/stake" className="nav-links" onClick={closeMobileMenu}>
                 Stake
               </Link>
             </li>
