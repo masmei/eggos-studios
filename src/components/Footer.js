@@ -107,7 +107,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to={{ pathname: "https://twitter.com/EggosNFT" }}
+              to={{ pathname: "https://discord.gg/kF7AJ5DQ" }}
               target='_blank'
               aria-label='Discord'
             >
