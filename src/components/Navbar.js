@@ -94,7 +94,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 className="nav-links"
-                to={{ pathname: "https://discord.gg/kF7AJ5DQ" }}
+                to={{ pathname: "https://discord.gg/GB2thseYBX" }}
                 target="_blank"
                 aria-label="Discord"
               >
